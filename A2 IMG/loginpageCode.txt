@@ -1,0 +1,151 @@
+log in page :-
+
+label 1 :-
+X: 89 pt
+Y: 244 pt
+W: 197 pt
+H: 35 pt
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 197, height: 35)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Bold", size: 30)
+
+2. label 2 :-
+
+X: 92 pt
+Y: 288 pt
+W: 192 pt
+H: 24 pt
+
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 192, height: 24)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.358, green: 0.357, blue: 0.357, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Medium", size: 10)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+view.textAlignment = .center
+
+view.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit "
+
+3. email :-
+X: 89 pt
+Y: 347 pt
+W: 30 pt
+H: 14 pt
+
+4. password :-
+X: 59 pt
+Y: 420 pt
+W: 259 pt
+H: 0 pt
+
+
+5. remember :- 
+X: 98 pt
+Y: 437 pt
+W: 54 pt
+H: 13 pt
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 54, height: 13)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Medium", size: 11)
+
+
+// Line height: 13 pt
+
+// (identical to box height)
+
+
+view.textAlignment = .center
+
+view.text = "Remember"
+
+6. UISwitcher :- 
+X: 58 pt
+Y: 435 pt
+W: 34 pt
+H: 18 pt
+Corner radius: 28 pt
+
+7.  log in button :- 
+X: 52 pt
+Y: 471 pt
+W: 271 pt
+H: 35 pt
+Corner radius: 7 pt
+
+8. X: 147 pt
+Y: 525 pt
+W: 81 pt
+H: 12 pt
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 81, height: 12)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.208, green: 0.208, blue: 0.208, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Medium", size: 10)
+
+
+// Line height: 12 pt
+
+// (identical to box height)
+
+
+view.textAlignment = .center
+
+view.text = "Forgot password?"
+
+9. sign up :-
+X: 112 pt
+Y: 584 pt
+W: 151 pt
+H: 14 pt
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 151, height: 14)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 10)
+
+
+// Line height: 12 pt
+
+
+view.textAlignment = .center
+
+view.text = "Don’t have an account? Sign Up!"
+
+
+
+
+
+
+
